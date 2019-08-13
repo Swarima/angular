@@ -1,0 +1,13 @@
+name: <input type="string" [(ngModel)]="cust.name"><br>
+date:<input type="date" [(ngModel)]="cust.birthDate"><br>
+{{cust.name}}
+{{cust.birthDate | date:"shortDate"}}<br>
+{{cust.birthDate | date:"mediumDate"}}<br>
+{{cust.birthDate | date:"longDate"}}<br>
+{{cust.birthDate | date:"fullDate"}}<br>
+{{cust.birthDate | date:"dd-MM-yyyy"}}<br>
+{{cust.birthDate | date:"dd-MMM,yy"}}<br>
+{{cust.birthDate | date:"dd-MMMM-yy"}}
+<button (click)="changeDateFormat()">change Date Format</button>
+<p>Birth Date is {{cust.birthDate | date:format}}
+    </p>

@@ -1,0 +1,8 @@
+
+    <form>
+       username: <input type="text" name="username" [(ngModel)]="user.userName"><br>
+        password:<input type="password" name="password" [(ngModel)]="user.password"><br>
+        <input type="submit" (click)="validate()" name="submit">
+    </form>
+{{user.userName | uppercase}} 
+{{user.userName | lowercase}} 

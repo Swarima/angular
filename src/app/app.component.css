@@ -1,0 +1,11 @@
+ul li 
+ {
+   display:inline;
+   margin:20px
+}
+ul
+{
+    text-align:center;
+    background-color:pink;
+}
+

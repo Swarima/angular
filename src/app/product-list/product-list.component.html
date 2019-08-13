@@ -1,0 +1,19 @@
+<app-product-detail *ngFor="let p of products" [product]="p"></app-product-detail>
+
+<app-product (productEmitter)="addProduct($event)"></app-product>
+<table>
+    <tr>
+        <td>Product Id</td>
+        <td>Product Name</td>
+        <td>Product Brand</td>
+        <td>Product Price</td>
+    </tr>
+    <tr *ngFor="let p of products">
+        <td>{{p.productid}}</td>
+        <td>{{p.name}}</td>
+        <td>{{p.brand}}</td>
+        <td>{{p.price}}</td>
+
+    </tr>
+
+</table>
