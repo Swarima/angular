@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.zensar.gradle.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-30T01:20:24" hostname="ARISTW42S2401" time="0.003">
+  <properties/>
+  <testcase name="testAppHasAGreeting" classname="com.zensar.gradle.AppTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
